@@ -8,10 +8,10 @@ public class Exercise1 {
         int number = input.nextInt();
         input.close();
 
-        if(number > 0) {
+        if (number > 0) {
             System.out.println("Positive.");
         }
-        else if(number < 0) {
+        else if (number < 0) {
             System.out.println ("Negative");
         }
         else {
